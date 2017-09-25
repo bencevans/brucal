@@ -1,0 +1,34 @@
+{
+  "name": "bruical",
+  "version": "0.0.0",
+  "description": "Brunel Timetable iCal",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencevans/bruical.git"
+  },
+  "keywords": [
+    "ical",
+    "calendar"
+  ],
+  "author": "Ben Evans <ben@bluechimp.io> (https://bencevans.io)",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/bencevans/bruical/issues"
+  },
+  "homepage": "https://github.com/bencevans/bruical#readme",
+  "dependencies": {
+    "basic-auth": "^2.0.0",
+    "brutime": "^1.0.0-0",
+    "express": "^4.15.4",
+    "ical-toolkit": "^1.0.9",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
