@@ -10,7 +10,19 @@
 
 Heroku is a Paas (Platform as a Service) which allows you to run your web applications without worrying about the infrastructure. Also providing a free tier which is surfice for running BruCal. WARNING: By using Heroku you are entrusting them with your university credentials.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/bencevans/brucal)
+
+Deploying...
+
+0. Click on above 'Deploy to Heroku' button.
+1. Login / Signup to Heroku if required.
+3. Fill in your BRUNEL_ID and BRUNEL_PASS and click 'Deploy App'.
+
+Finding the iCal URL...
+
+3. Wait for deployment process to finish then click 'Manage App'.
+4. In the top right there should be a More menu button. Click 'More' then 'View Logs'.
+5. Here you will find the URL to your iCal.
 
 ### Linux
 
