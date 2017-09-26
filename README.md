@@ -12,6 +12,8 @@ You'll need:
 * npm
 * git
 
+Run:
+
     $ git clone https://github.com/bencevans/brucal.git
     $ cd brucal
     $ npm install
