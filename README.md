@@ -1,4 +1,4 @@
-# Brucal
+# BruCal
 
 > iCal Web Service for Brunel Timetables
 
