@@ -1,0 +1,20 @@
+{
+  "name": "BruCal",
+  "description": "iCal Web Service for Brunel Timetables.",
+  "website": "https://github.com/bencevans/brucal",
+  "env": {
+    "NODE_ENV": "production",
+    "TOKEN": {
+      "description": "This gets generated",
+      "generator": "secret"
+    },
+    "BRUNEL_ID": {
+      "description": "Brunel ID",
+      "value": ""
+    },
+    "BRUNEL_PASS": {
+      "description": "Brunel Password",
+      "value": ""
+    }
+  }
+}
