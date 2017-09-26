@@ -4,7 +4,7 @@
   "website": "https://github.com/bencevans/brucal",
   "env": {
     "NODE_ENV": "production",
-    "TOKEN": {
+    "ACCESS_TOKEN": {
       "description": "This gets generated",
       "generator": "secret"
     },

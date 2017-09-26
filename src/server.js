@@ -24,23 +24,11 @@ if (!config.BRUNEL_PASS) {
   throw new Error('Missing BRUNEL_PASS')
 }
 
-const basicAuthUtil = function(username, password) {
-  return function(req, res, next) {
-    var user = basicAuth(req);
+// HTTP Basic Authentication has been removed in favour of a token in the URL
+// due to Google Calendar not supporting iCal from URLs containing Basic
+// Authentication credentials.
 
-    if (!user || user.name !== username || user.pass !== password) {
-      res.set('WWW-Authenticate', 'Basic realm=Authorization Required');
-      return res.send(401);
-    }
-
-    next();
-  };
-};
-
-app.use(basicAuthUtil(config.ACCESS_TOKEN, ''))
-
-app.get('/cal.ical', (req, res) => {
-  console.log('retri')
+app.get(`/${config.ACCESS_TOKEN}/cal.ical`, (req, res) => {
   retreiveTimetable(config.BRUNEL_ID, config.BRUNEL_PASS, {}, (err, timetable) => {
     const ical = buildIcal(timetable)
     res.end(ical)
@@ -51,6 +39,6 @@ app.get('/cal.ical', (req, res) => {
 app.listen(config.PORT, () => {
   console.log(`--> Server Started [http://0.0.0.0:${config.PORT}]
 
-  Your calendar is available at http://${config.ACCESS_TOKEN}:@0.0.0.0:${config.PORT}/cal.ical
+  Your calendar is available at http://0.0.0.0:${config.PORT}/${config.ACCESS_TOKEN}/cal.ical
   `)
 })
