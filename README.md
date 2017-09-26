@@ -1,22 +1,26 @@
 # BruCal
 
-> iCal Web Service for Brunel Timetables
+> iCal Web Service for Brunel Timetables. Automatically add your Brunel timetable to Google Calender, GNOME Calender or any other calender application providing support for Web iCal.
 
-**I take no responsibility to the use or security of this project. Use at your own risk.**
+**USE AT YOUR OWN RISK. I take no responsibility for the use or security of this project.**
 
-## Setting up (locally)
+## Run your own
 
-You'll need:
+### Heroku
 
-* node
-* npm
-* git
+Heroku is a Paas (Platform as a Service) which allows you to run your web applications without worrying about the infrastructure. Also providing a free tier which is surfice for running BruCal. WARNING: By using Heroku you are entrusting them with your university credentials.
 
-Run:
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+### Linux
+
+Ensure `node` (v8+), `npm` and `git` are installed.
 
     $ git clone https://github.com/bencevans/brucal.git
     $ cd brucal
     $ npm install
     $ BRUNEL_ID=yourstudentid BRUNEL_PASS=brunelpassword TOKEN=arandomsecuretoken npm start
 
-## Heroku
+## Related
+
+* [brutime](https://github.com/bencevans/brutime) - node.js module for scraping Brunel's timetabling system
