@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/bencevans/bruical#readme",
   "dependencies": {
-    "basic-auth": "^2.0.0",
     "brutime": "^1.0.0-0",
     "express": "^4.15.4",
     "ical-toolkit": "^1.0.9",

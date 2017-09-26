@@ -1,6 +1,5 @@
 const path = require('path');
 const express = require('express');
-const basicAuth = require('basic-auth');
 const {retreiveTimetable, buildIcal} = require('./');
 
 const app = express();
