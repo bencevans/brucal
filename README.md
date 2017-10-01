@@ -16,13 +16,14 @@ Deploying...
 
 0. Click on above 'Deploy to Heroku' button.
 1. Login / Signup to Heroku if required.
-3. Fill in your BRUNEL_ID and BRUNEL_PASS and click 'Deploy App'.
+2. Fill in your BRUNEL_ID (7 digit student number) and BRUNEL_PASS (Brunel network password) and click 'Deploy App'.
 
 Finding the iCal URL...
 
-3. Wait for deployment process to finish then click 'Manage App'.
-4. In the top right there should be a More menu button. Click 'More' then 'View Logs'.
-5. Here you will find the URL to your iCal.
+3. Wait for deployment process to finish.
+4. In the top right, click 'More' then 'View Logs'.
+5. Here you will find the URL to your iCal, copy the path of the URL.
+6. Click 'Open app'. This will give you an error message for now, paste the ICal path to the end of this app's URL.
 
 ### Linux
 
