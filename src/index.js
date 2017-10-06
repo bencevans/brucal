@@ -1,5 +1,5 @@
 const TimetableService = require('brutime');
-const parseWeeks = require('./lib/parse-weeks');
+const parseWeeks = require('parse-weeks');
 const buildIcal = require('./lib/build-ical');
 
 // Retreive
