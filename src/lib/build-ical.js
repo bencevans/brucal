@@ -1,7 +1,7 @@
 
 const moment = require('moment')
 const icalToolkit = require('ical-toolkit');
-const parseWeeks = require('./parse-weeks');
+const parseWeeks = require('parse-weeks');
 
 const week0StartEpoch = 1505692800;
 const week0StartMoment = moment.unix(week0StartEpoch);
