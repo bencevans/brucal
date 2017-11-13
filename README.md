@@ -1,6 +1,6 @@
 # BruCal
 
-> iCal Web Service for Brunel Timetables. Automatically add your Brunel timetable to Google Calender, GNOME Calender or any other calender application providing support for Web iCal.
+> iCal Web Service for Brunel Timetables. Automatically add your Brunel timetable to Google Calendar, GNOME Calendar or any other calendar application providing support for Web iCal.
 
 ## Documentation
 
