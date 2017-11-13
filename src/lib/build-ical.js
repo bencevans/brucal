@@ -11,7 +11,7 @@ const buildIcal = (timetable) => {
 
   builder.calname = 'Brunel Timetable';
   builder.timezone = 'Europe/London';
-  builder.tzid = ' Europe/London';
+  builder.tzid = 'Europe/London';
   // builder.method = 'REQUEST';
 
   // Add each event to builder
