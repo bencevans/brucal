@@ -12,9 +12,9 @@
 
 ### Client Setup
 
-* [Google Calendar (web)]()
-* [Google Calendar (android)]()
-* [GNOME Calendar]()
+* [Google Calendar (web)](docs/setup-client/google-calendar-web.md)
+* [Google Calendar (android)](docs/setup-client/google-calendar-android.md)
+* [GNOME Calendar](docs/setup-client/gnome-calendar.md)
 
 ## Related
 
